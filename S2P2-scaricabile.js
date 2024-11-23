@@ -70,6 +70,7 @@ for (let i = 0; i < utenti.length; i++){
   } else if (!utenteCheEffettuaLAcquisto.isAmbassador && riepilogoCarrello <= 100) {
     totale = riepilogoCarrello + shippingCost
   }
-  console.log("Il totale da pagare per il carrello di " + utenteCheEffettuaLAcquisto.name + " " + utenteCheEffettuaLAcquisto.lastName + " e' di " + totale)
 }
+console.log("Il totale da pagare per il carrello di " + utenteCheEffettuaLAcquisto.name + " " + utenteCheEffettuaLAcquisto.lastName + " e' di " + totale)
+
 
